@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    height: 50vh;
     box-sizing: border-box;
     background-color: #495948;
     color: #61F25E;
@@ -21,11 +21,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 8%;
+    margin: 14%;
 }
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -54,4 +57,10 @@ body{
     text-decoration: none;
     color:#61F25E;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__imagem {
+    display: flex;
+    width: 40%;
+    height: 40%;
 }
