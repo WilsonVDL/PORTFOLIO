@@ -150,4 +150,8 @@ body{
         width: 50%;
     }
 
+    .apresentacao__about {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
 }
