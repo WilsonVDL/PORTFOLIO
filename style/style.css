@@ -16,7 +16,6 @@
     padding: 0;
 }
 body{
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -90,7 +89,6 @@ body{
 }
 
 .apresentacao__links__link {
-    /* background-color: #013800; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -118,7 +116,7 @@ body{
 }
 
 .rodape {
-    color: #61F25E;
+    color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
